@@ -1,0 +1,61 @@
+body, html, * {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+}
+
+.location, .dateTime {
+    width: 375px;
+    font-size: clamp(14px, 5vw, 32px);
+    padding: 3px;
+}
+
+.calendar-api {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 100vh;
+    width:max-content;
+    overflow-x:auto;
+    justify-content: center;
+    align-items: center;
+}
+.date-wrapper {
+    background-color:rgb(200, 255, 255);
+    height: clamp(100px, 40vw, 250px);
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: inset 0px 0px 3px 3px blue;
+}
+h1, .date-loc {
+    background-color:rgb(200, 255, 255);
+}
+.year, .day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.year {
+    font-size: clamp(18px, 10vw, 48px);
+}
+.day {
+    font-size: clamp(24px, 15vw, 70px);
+}
+
+.big-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 10px;
+    background-color: rgb(200, 255, 255);
+}
+.date-loc {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
