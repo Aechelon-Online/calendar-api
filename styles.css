@@ -13,7 +13,7 @@ body, html, * {
 .calendar-api {
     background-color: rgb(0, 0, 0);
     display: flex;
-    height: 100vh;
+    height: 300px;
     width:max-content;
     overflow-x:auto;
     justify-content: center;
@@ -58,4 +58,7 @@ h1, .date-loc {
     justify-content: center;
     align-items: center;
     margin-left: 10px;
+}
+h1 a {
+    background-color: rgb(200, 255, 255);
 }
